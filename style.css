@@ -14,7 +14,11 @@
     font-size: 1.5em;
     border-radius: 5px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(255, 200, 0);
     color: white;
+    transition: background-color 0.25s;
 
+}
+.buttons:hover{
+    background-color: hsl(214, 100%, 56%);
 }
